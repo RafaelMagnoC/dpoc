@@ -1,0 +1,25 @@
+#cards{
+  grid-area: cards;
+}
+
+#graficoMapa{
+  grid-area: mapa;
+}
+
+#graficoPizza{
+  grid-area: pizza;
+}
+
+#graficoBarras{
+  grid-area: barras;
+}
+#content-main{
+  display: grid;
+  grid-template-areas:
+  "cards cards cards"
+  "mapa pizza barras";
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 25% 73%;
+  gap: 10px;
+  justify-content: center;
+}

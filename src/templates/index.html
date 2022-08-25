@@ -1,0 +1,86 @@
+{% extends "layout/base.html" %}
+
+{% block title %} - Gráficos{% endblock %}
+
+{% block content %}
+
+<!--header-->
+<header>
+  <div id="logo">
+    <img class="icon-header" src="../static/imgs/pulmao.png">
+    <h1>DPOC</h1>
+  </div>
+  <div id="lista-icones">
+    <ul>
+      <img class="icon-header" src="../static/imgs/menu-aberto.png">
+    </ul>
+  </div>
+</header>
+
+<!--menu lateral-->
+<div id="menu">
+  <nav>
+    <ul>
+      <li>
+        <img class="icon-menu" src="../static/imgs/casa.png">
+      </li>
+      <li>
+        <img class="icon-menu" src="../static/imgs/mapa-brasil.png">
+      </li>
+      <li>
+        <img class="icon-menu" src="../static/imgs/grafico-de-pizza.png">
+      </li>
+      <li>
+        <img class="icon-menu" src="../static/imgs/grafico-de-barras.png">
+      </li>
+      <li>
+        <img class="icon-menu" src="../static/imgs/planilhas-do-google.png">
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<!--conteúdo principal-->
+<main id="content-main">
+  <section id="cards">
+    <div class="card borda">
+      <div class="card-conteudo" id="card-titulo">Título</div>
+      <div class="card-conteudo" id="card-descricao">Descrição</div>
+      <div class="card-conteudo" id="card-numero">Número</div>
+    </div>
+    <div class="card borda">
+      <div class="card-conteudo" id="card-titulo">Título</div>
+      <div class="card-conteudo" id="card-descricao">Descrição</div>
+      <div class="card-conteudo" id="card-numero">Número</div>
+    </div>
+    <div class="card borda">
+      <div class="card-conteudo" id="card-titulo">Título</div>
+      <div class="card-conteudo" id="card-descricao">Descrição</div>
+      <div class="card-conteudo" id="card-numero">Número</div>
+    </div>
+    <div class="card borda">
+      <div class="card-conteudo" id="card-titulo">Título</div>
+      <div class="card-conteudo" id="card-descricao">Descrição</div>
+      <div class="card-conteudo" id="card-numero">Número</div>
+    </div>
+    <div class="card borda">
+      <div class="card-conteudo" id="card-titulo">Título</div>
+      <div class="card-conteudo" id="card-descricao">Descrição</div>
+      <div class="card-conteudo" id="card-numero">Número</div>
+    </div>
+  </section>
+  <section id="graficoMapa" class="borda">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31760055.70874759!2d-69.67963073211602!3d-13.660200751325885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1661371489516!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <section id="graficoPizza" class="borda">
+  </section>
+  <section id="graficoBarras" class="borda">
+  </section>
+</main>
+
+<!--footer-->
+<footer>
+  Copyright &copy 2022 de <strong>Química 4.0<strong>    
+</footer>
+{% endblock %}
+

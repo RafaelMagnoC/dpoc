@@ -1,0 +1,26 @@
+header{
+  grid-area: header;
+}
+
+#menu{
+  grid-area: menu;
+}
+
+main{
+  grid-area: main;
+}
+
+footer{
+  grid-area: footer;
+}
+
+#content{
+  display: grid;
+  grid-template-areas:
+  "menu header header"
+  "menu main main"
+  "menu footer footer";
+  grid-template-rows: 5vh 90vh 5vh;
+  grid-template-columns: 5vw 95vw;
+}
+

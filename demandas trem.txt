@@ -1,0 +1,7 @@
+Estado com maior número de beneficiários
+
+Gráfico de Pizza por sexo dentro do mapa
+
+Número de beneficiários por gênero e o total
+
+Estados que o mapa não reconhece sua UF, trocar por um mais próximo e aceito.
