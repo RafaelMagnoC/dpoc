@@ -80,7 +80,6 @@ main > #cards{
   display: flex;
   justify-content: center;
   gap: 10px;
-  flex-wrap: wrap;
 }
 
 iframe{
@@ -89,6 +88,18 @@ iframe{
   margin: 0 auto;
   padding: 10px;
   border-radius: 20px;
+}
+
+#graficoPizza > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#graficoBarras > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .card{

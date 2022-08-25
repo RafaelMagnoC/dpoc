@@ -13,6 +13,7 @@
 #graficoBarras{
   grid-area: barras;
 }
+
 #content-main{
   display: grid;
   grid-template-areas:
