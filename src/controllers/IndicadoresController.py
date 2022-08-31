@@ -7,7 +7,7 @@ def dadosDpoc():
     pathFile,
     engine="openpyxl"
   )
-  return dbDpoc[['cid','cliente', 'genero', 'municipio', 'uf']].to_json(orient="records")
+  return dbDpoc[['cid','cliente', 'genero', 'municipio', 'uf', 'latitude', 'longitude']].to_json(orient="records")
 
 
 

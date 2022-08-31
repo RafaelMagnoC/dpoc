@@ -36,15 +36,6 @@ header > #logo{
   gap: 1rem;
 }
 
-header > #lista-icones > ul{
-  display: flex;
-  gap: 1rem;
-}
-
-header > #lista-icones > ul > li{
-  color: white;
-}
-
 .icon-header{
   width: 2rem;
   height: 2rem;
@@ -129,6 +120,7 @@ iframe{
 }
 
 footer{
+  width: 100%;
   background-color: coral;
   display: flex;
   justify-content: center;

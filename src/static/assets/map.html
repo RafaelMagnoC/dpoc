@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3c28bf32b1c74f2a7f880bb7f45546ac {
+                #map_755b743e651253586ee4a57b5791230e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_3c28bf32b1c74f2a7f880bb7f45546ac" ></div>
+            <div class="folium-map" id="map_755b743e651253586ee4a57b5791230e" ></div>
         
 </body>
 <script>    
     
-            var map_3c28bf32b1c74f2a7f880bb7f45546ac = L.map(
-                "map_3c28bf32b1c74f2a7f880bb7f45546ac",
+            var map_755b743e651253586ee4a57b5791230e = L.map(
+                "map_755b743e651253586ee4a57b5791230e",
                 {
                     center: [-15.77, -47.9295],
                     crs: L.CRS.EPSG3857,
@@ -55,9 +55,34 @@
 
         
     
-            var tile_layer_59ee273232144b0e226a94cd17b0d022 = L.tileLayer(
+            var tile_layer_3331141cce4ac4134d9b6d165488d046 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_3c28bf32b1c74f2a7f880bb7f45546ac);
+            ).addTo(map_755b743e651253586ee4a57b5791230e);
         
+    
+            var marker_cdfff427100fbdc3a70f383708e8ee48 = L.marker(
+                [-15.77, -47.9295],
+                {}
+            ).addTo(map_755b743e651253586ee4a57b5791230e);
+        
+    
+            var icon_a686e256604aa1f6b7acd0d6d8c1acb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdfff427100fbdc3a70f383708e8ee48.setIcon(icon_a686e256604aa1f6b7acd0d6d8c1acb8);
+        
+    
+        var popup_a2fd1cee2316f773e2335141b99f1ad2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bb02b8f98738ee0681f829eb1a909af = $(`<div id="html_6bb02b8f98738ee0681f829eb1a909af" style="width: 100.0%; height: 100.0%;"><i>Mt. Hood Meadows</i></div>`)[0];
+            popup_a2fd1cee2316f773e2335141b99f1ad2.setContent(html_6bb02b8f98738ee0681f829eb1a909af);
+        
+
+        marker_cdfff427100fbdc3a70f383708e8ee48.bindPopup(popup_a2fd1cee2316f773e2335141b99f1ad2)
+        ;
+
+        
+    
 </script>
