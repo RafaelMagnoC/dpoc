@@ -8,9 +8,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-  mapaBrasil = mapa.Map()
-  mapaBrasil.createMap()
-  mapaBrasil.moveFileMap()
   return render_template("index.html")
 
 @app.route("/dados")

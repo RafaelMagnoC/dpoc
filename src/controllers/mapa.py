@@ -13,13 +13,11 @@ class Map:
       zoom_start = self.zoom_start
     )    
     #Insertion icon
-    folium.Marker(
+    """folium.Marker(
       location=[-15.770, -47.92950],
       popup="<i>Mt. Hood Meadows</i>",
       icon=folium.Icon(color = "red", icon="info-sign"),
-      ).add_to(my_map)
-
-    #Save map
+      ).add_to(my_map)"""
     my_map.save("map.html")
 
   def moveFileMap(self):  
@@ -29,4 +27,6 @@ class Map:
     )  
 
 
-
+mapa = Map()
+mapa.createMap()
+mapa.moveFileMap()
