@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import render_template
-from controllers import mapa
 from controllers import IndicadoresController
 import json
 

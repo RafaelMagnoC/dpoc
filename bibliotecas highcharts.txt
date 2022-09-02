@@ -1,0 +1,7 @@
+lista de bibliotecas highcharts
+
+https://www.highcharts.com/demo/bar-negative-stack
+
+https://www.highcharts.com/demo/bar-basic
+
+https://www.highcharts.com/demo/column-basic
